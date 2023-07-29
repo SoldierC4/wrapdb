@@ -77,6 +77,13 @@
       "linux": false
     }
   },
+  "dtc": {
+    "_comment": "Some tests fail due to bug in 1.7.0 release. Python fails due to tarball missing version info.",
+    "skip_tests": true,
+    "build_options": [
+      "dtc:python=disabled"
+    ]
+  },
   "epoxy": {
     "debian_packages": [
       "libgl-dev",

@@ -430,6 +430,14 @@
       "1.1.2-1"
     ]
   },
+  "dtc": {
+    "dependency_names": [
+      "libfdt"
+    ],
+    "versions": [
+      "1.7.0-1"
+    ]
+  },
   "eigen": {
     "dependency_names": [
       "eigen3"

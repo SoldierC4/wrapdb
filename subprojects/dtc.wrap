@@ -1,0 +1,9 @@
+[wrap-file]
+directory = dtc-1.7.0
+source_url = https://www.kernel.org/pub/software/utils/dtc/dtc-1.7.0.tar.xz
+source_filename = dtc-1.7.0.tar.xz
+source_hash = 29edce3d302a15563d8663198bbc398c5a0554765c83830d0d4c0409d21a16c4
+patch_directory = dtc
+
+[provide]
+libfdt = libfdt_dep
