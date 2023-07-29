@@ -1,0 +1,9 @@
+[wrap-file]
+directory = libubootenv-0.3.4
+source_url = https://github.com/sbabic/libubootenv/archive/refs/tags/v0.3.4.tar.gz
+source_filename = v0.3.4.tar.gz
+source_hash = 78faadcfac67e50273e5d4e95e6cf6fee3d486ce9dc568d1fe25312271a88768
+patch_directory=libubootenv
+
+[provide]
+dependency_names = libubootenv

@@ -1465,6 +1465,14 @@
       "1.17-1"
     ]
   },
+  "libubootenv": {
+    "dependency_names": [
+      "libubootenv"
+    ],
+    "versions": [
+      "0.3.4-1"
+    ]
+  },
   "libupnp": {
     "dependency_names": [
       "libupnp"

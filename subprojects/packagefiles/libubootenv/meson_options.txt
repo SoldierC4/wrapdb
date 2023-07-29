@@ -1,0 +1,12 @@
+option(
+  'default_cfg_file',
+  value: '/etc/fw_env.config',
+  type: 'string',
+  description : 'Default config file for fw_printenv'
+)
+option(
+  'default_env_file',
+  value: '/etc/u-boot-initial-env',
+  type: 'string',
+  description : 'Default environment file for fw_printenv'
+)
